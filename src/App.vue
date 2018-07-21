@@ -1,18 +1,22 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <v-app>
+      <v-navigation-drawer app></v-navigation-drawer>
+      <v-toolbar app></v-toolbar>
+      <v-content>
+        <v-container fluid>
+          <v-icon>done</v-icon>
+        </v-container>
+      </v-content>
+      <v-footer app></v-footer>
+    </v-app>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  components: {}
 }
 </script>
 
@@ -23,6 +27,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

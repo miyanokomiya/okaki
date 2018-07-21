@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "ress": "^1.2.2",
-    "vue": "^2.5.2"
+    "vue": "^2.5.2",
+    "vuetify": "^1.1.7"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.4.8",
