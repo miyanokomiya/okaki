@@ -1,6 +1,7 @@
 import { configure } from '@storybook/vue'
 import { addDecorator } from '@storybook/vue'
 import { withKnobs } from '@storybook/addon-knobs'
+import 'ress'
 
 addDecorator(withKnobs)
 
