@@ -9,6 +9,7 @@
     "start": "npm run dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "test": "npm run unit",
+    "storybook": "start-storybook -p 9001 -c .storybook",
     "lint": "eslint --ext .js,.vue src test/unit",
     "build": "node build/build.js"
   },
@@ -16,6 +17,9 @@
     "vue": "^2.5.2"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^3.4.8",
+    "@storybook/addon-knobs": "^3.4.8",
+    "@storybook/vue": "^3.4.8",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^8.2.1",
